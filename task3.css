@@ -1,0 +1,685 @@
+.container
+{
+	width:100%;
+}
+.row
+	  {
+	    display:flex;
+		flex-direction:row;
+		}
+	
+.main
+    {
+       width:100%;
+       background-color:FF1493;
+     }
+ h3
+  {
+	  text-align:center;
+	  font-size:50px;
+  }
+.one,.two,.three,.four
+{
+    width:25%;
+	height:200px;
+	background-color:red;
+	border:solid 2px black;
+	font-size:50px;
+}
+.second
+{
+	width:100%;
+	height:300px;
+}
+.rows
+{
+	display:flex;
+	flex-direction:row-reverse;
+}
+.data1,.data2,.data3,.data4
+{
+	width:25%;
+	height:200px;
+	background-color:yellow;
+	border:solid 3px brown;
+	font-size:50px;
+}
+.third
+{
+	display:flex;
+	flex-direction:column;
+}
+.cdata1,.cdata2,.cdata3,.cdata4
+{
+	width:100%;
+	height:50px;
+	background-color:#FF1493;
+	border:solid 3px #6c5b7b;
+	font-size:50px;
+	text-align:center;
+	
+}
+.four{
+	 width:100%;
+}
+.columnrevrows
+{
+	display:flex;
+	flex-direction:column-reverse;
+}
+.crdata1,.crdata2,.crdata3,.crdata4
+{ 
+    
+	width:100%;
+	height:50px;
+	background-color:pink;
+	border:solid 3px red;
+	font-size:50px;
+}
+.wrpex
+{
+	width:100%;
+	background-color:#9c27b0;;
+	
+}
+.wrprow
+{
+	display:flex;
+	flex-wrap:wrap;
+	height:100px;
+}
+.rdata1,.rdata2,.rdata3,.rdata3,.rdata4
+{
+	height:100px;
+	width:40%;
+	background-color:#FF1493;
+	border:solid 3px black;
+	font-size:50px;
+	height:50px;
+}
+	
+.nowrpex
+{
+	width:100%;
+	background-color:#9c27b0;;
+}
+.nowrprow
+{
+	display:flex;
+	flex-wrap:nowrap;
+}
+.nrdata1,.nrdata2,.nrdata3,.nrdata3,.nrdata4
+{
+	width:40%;
+	background-color:#FF1493;
+	border:solid 3px black;
+	font-size:50px;
+	height:50px;
+}
+.wrprves
+{
+	width:100%;
+	background-color:#9c27b0;;
+}
+.wrprvrow
+{
+	display:flex;
+	flex-wrap:wrap-reverse;
+}
+.rrdata1,.rrdata2,.rrdata3,.rrdata3,.rrdata4
+{
+	width:45%;
+	background-color:#FF1493;
+	border:solid 3px black;
+	height:50px;
+	font-size:50px;
+}
+	
+.rowwrapsx
+{
+	width:100%;
+	background-color:#9c27b0;;
+}
+.rowwrap
+{
+	display:flex;
+	flex-flow:row wrap;
+}
+.rwdata1,.rwdata2,.rwdata3,.rwdata3,.rwdata4
+{
+	width:45%;
+	background-color:#FF1493;
+	border:solid 3px black;
+	height:50px;
+	font-size:50px;
+}
+.justify
+{
+	width:100%;
+	background-color:#9c27b0;
+}
+.rowjus
+{
+	display:flex;
+	justify-content:center;
+}
+.jdata1,.jdata2,.jdata3,.jdata3,.jdata4
+{
+	width:20%;
+	background-color:#ff4081;
+	border:solid 3px black;
+	height:50px;
+	font-size:50px;
+}
+.justifys
+{
+	width:100%;
+	background-color:blue;
+}
+.rowjuss
+{
+	display:flex;
+	justify-content:flex-start;
+}
+.jsdata1,.jsdata2,.jsdata3,.jsdata3,.jsdata4
+{
+	width:20%;
+	background-color:#FF1493;
+	border:solid 3px black;
+	height:50px;
+	font-size:50px;
+}
+.justifye
+{
+	width:100%;
+	background-color:#9c27b0;
+}
+.rowjuse
+{
+	display:flex;
+	justify-content:flex-end;
+}
+.jedata1,.jedata2,.jedata3,.jedata3,.jedata4
+{
+	width:20%;
+	background-color:#FF1493;
+	border:solid 3px black;
+	height:50px;
+	font-size:50px;
+}
+.justifysa
+{
+	width:100%;
+	background-color:#9c27b0;
+}
+.rowjussa
+{
+	display:flex;
+	justify-content:space-around;
+}
+.sadata1,.sadata2,.sadata3,.sadata3,.sadata4
+{
+	width:20%;
+	background-color:#FF1493;
+	border:solid 3px black;
+	height:50px;
+	font-size:50px;
+}
+.justifybt
+{
+	width:100%;
+	background-color:#9c27b0;
+}
+.rowjusbt
+{
+	display:flex;
+	justify-content:space-between;
+}
+.btdata1,.btdata2,.btdata3,.btdata3,.btdata4
+{
+	width:20%;
+	background-color:#FF1493;
+	border:solid 3px black;
+	height:50px;
+	font-size:50px;
+}
+.justifyev
+{
+	width:100%;
+	background-color:#9c27b0;
+}
+.rowjusev
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+.evdata1,.evdata2,.evdata3,.evdata3,.evdata4
+{
+	width:20%;
+	background-color:#ff4081;
+	font-size:50px;
+	border:solid 3px black;
+	height:50px;
+}
+.alignic
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowalnc
+{
+	 height:200px;
+	display:flex;
+	align-items:center;
+}
+.acdata1,.acdata2,.acdata3,.acdata3,.acdata4
+{
+	width:20%;
+	background-color:#ff4081;
+	font-size:50px;
+	border:solid 3px black;
+	height:50px;
+}
+.alignis
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowalns
+{
+	 height:200px;
+	display:flex;
+	align-items:flex-start;
+}
+.asdata1,.asdata2,.asdata3,.asdata3,.asdata4
+{
+	width:20%;
+	background-color:#ff4081;
+	font-size:50px;
+	border:solid 3px black;
+	height:50px;
+}
+.alignie
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowalne
+{
+	 height:200px;
+	display:flex;
+	align-items:flex-end;
+}
+.aedata1,.aedata2,.aedata3,.aedata3,.aedata4
+{
+	width:20%;
+	background-color:#ff4081;
+	font-size:50px;
+	border:solid 3px black;
+	height:50px;
+}
+.alignist
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowalnst
+{
+	 height:200px;
+	display:flex;
+	align-items:stretch;
+}
+.astdata1,.astdata2,.astdata3,.astdata3,.astdata4
+{
+	width:20%;
+	font-size:50px;
+	background-color:#ff4081;
+	border:solid 3px black;
+	
+}
+.alignibs
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowalnbs
+{
+	 height:200px;
+	display:flex;
+	align-items:baseline;
+}
+.bstdata1,.bstdata2,.bstdata3,.bstdata3,.bstdata4
+{
+	width:30%;
+	
+	border:solid 3px black;
+	
+}
+	
+	
+.bstdata1
+{ 
+    font-size:2rem;
+	background-color:yellow;
+	color:red;
+	
+}
+.bstdata2
+{
+	 font-size:5rem;
+	 background-color:yellow;
+	 color:red;
+	
+}
+.bstdata3
+{ 
+    font-size:3rem;
+	background-color:yellow;
+	 color:red;
+	
+}
+.bstdata4
+{ 
+    font-size:7rem;
+	background-color:yellow;
+	 color:red;
+	
+}
+.aligncntspb
+{
+	width:100%;
+	background-color:#9c27b0;
+
+	
+	
+}
+.rowalncntspb
+{
+
+	display:flex;
+	flex-wrap:wrap;
+	align-content:space-between;
+	height:200px;
+	
+	
+}
+.alspbndata1,.alspbndata2,.alspbndata3,.alspbndata4,.alspbndata5,.alspbndata6
+{
+	width:40%;
+	background-color:#ff4081;
+	font-size:50px;
+	border:solid 3px black;
+	
+	
+} 
+.aligncntsar
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+	
+	
+}
+.rowalncntsar
+{
+
+	display:flex;
+	flex-wrap:wrap;
+	align-content:space-around;
+	height:200px;
+	
+	
+}
+.alsardata1,.alsardata2,.alsardata3,.alsardata4,.alsardata5,.alsardata6
+{
+	width:40%;
+	font-size:50px;
+	background-color:#ff4081;
+	border:solid 3px black;
+	
+	
+} 
+.aligncntsst
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+	
+	
+}
+.rowalncntsst
+{
+
+	display:flex;
+	flex-wrap:wrap;
+	align-content:stretch;
+	height:200px;
+	
+	
+}
+.alsstdata1,.alsstdata2,.alsstdata3,.alsstdata4,.alsstdata5,.alsstdata6
+{
+	width:40%;
+	background-color:#ff4081;
+	font-size:50px;
+	border:solid 3px black;
+	
+	
+}
+.aligncnts
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowalncnts
+{
+
+	display:flex;
+	flex-wrap:wrap;
+	height:200px;
+	align-content:flex-start;
+}
+.alsndata1,.alsndata2,.alsndata3,.alsndata4
+{
+	width:10%;
+	background-color:#ff4081;
+	font-size:30px;
+	border:solid 3px black;
+	
+	
+}
+.aligncntse
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowalncntse
+{
+
+	display:flex;
+	flex-wrap:wrap;
+	height:200px;
+	align-content:flex-end;
+}
+.alsendata1,.alsendata2,.alsendata3,.alsendata4
+{
+	width:10%;
+	background-color:#ff4081;
+	font-size:30px;
+	border:solid 3px black;
+	
+	
+}
+ .aligncnt
+{
+	width:100%;
+	background-color:#9c27b0;
+}
+.rowalncntc
+{
+
+	display:flex;
+	flex-wrap:wrap;
+     height:200px;
+	align-content: center;
+}
+.alcndata1,.alcndata2,.alcndata3,.alcndata4
+{
+	width:10%;
+	background-color:#ff4081;
+	font-size:30px;
+	border:solid 3px black;
+	
+	
+} 
+ 
+.orders
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.roworder
+{
+	 height:100px;
+	display:flex;
+}
+.odata1,.odata2,.odata3,.odata3,.odata4
+{
+	width:20%;
+	height:100px;
+	background-color:#ff4081;
+	font-size:50px;
+	border:solid 3px black;
+	
+	
+}
+.odata1
+{
+	order:4;
+}
+.odata2
+{
+	order:3;
+}
+.odata3
+{
+	order:2;
+}
+.odata4
+{
+	order:1;
+}
+.grow
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowflexgrow
+{
+	 height:100px;
+	 display:flex;
+}
+.gdata1,.gdata2,.gdata3
+{     
+     width:5%;
+	 height:50px;
+	 background-color:#ff4081;
+	 font-size:50px;
+	 border:solid 3px black;
+}
+.gdata3
+{
+	flex-grow:1;
+}
+.shrink
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowflexshrink
+{
+	 height:100px;
+	 display:flex;
+}
+.fsdata1,.fsdata2,.fsdata3
+{     
+     width:15%;
+	 height:100px;
+	 background-color:#ff4081;
+	 border:solid 3px black;
+	 font-size:50px;
+}
+.fsdata3
+{
+	flex-shrink:1;
+}
+.basis
+{
+	width:100%;
+	background-color:#9c27b0;;
+	
+}
+.rowflexbasis
+{
+	 height:300px;
+	 display:flex;
+}
+.bsdata1,.bsdata2,.bsdata3
+{     
+    
+	 height:100px;
+	 background-color:#ff4081;
+	 font-size:50px;
+	 border:solid 3px black;
+}
+
+.bsdata3
+{
+	flex-basis:200px;
+}
+.bsdata2{
+	width:20%;
+}
+.alignself
+{
+	width:100%;
+	background-color:#9c27b0;
+	
+}
+.rowflexalignself
+{
+	 height:300px;
+	 display:flex;
+}
+.asfdata1,.asfdata2,.asfdata3
+{     
+     width:50px;
+	 height:100px;
+	 background-color:#ff4081;
+	 border:solid 3px black;
+	 font-size:50px;
+}
+.asfdata1
+{
+	align-self:flex-start;
+}
+.asfdata2
+{
+	align-self:center;
+}
+
+.asfdata3
+{
+	align-self:flex-end;
+}
+
